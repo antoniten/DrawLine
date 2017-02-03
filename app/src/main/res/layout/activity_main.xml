@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+
+    <ru.pavlenty.canvasexample.CanvasView
+        android:id="@+id/signature_canvas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="#FFFFFF" />
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:onClick="clearCanvas"
+        android:text="Очистить" />
+
+
+    <Button
+        android:text="Откат"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|"
+        android:id="@+id/button3" />
+
+    <Button
+        android:text="Изменить размер"
+        android:layout_width="106dp"
+        android:layout_height="122dp"
+        android:id="@+id/button" />
+
+    <Button
+        android:text="Изменить цвет"
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2" />
+
+
+</FrameLayout >
